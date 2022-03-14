@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // count app function
+        // Add Sound on clicking 
 
         val click_me = findViewById(R.id.push) as Button
         val myTextView = findViewById(R.id.textView) as TextView
