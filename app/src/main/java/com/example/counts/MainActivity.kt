@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val click_me = findViewById(R.id.push) as Button
         val myTextView = findViewById(R.id.textView) as TextView
         var timesClicked = 0
-
+//lets push
         click_me.setOnClickListener{
             mediaPlayer = MediaPlayer.create(this, R.raw.button)
             mediaPlayer?.start()
